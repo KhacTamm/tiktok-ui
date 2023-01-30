@@ -1,0 +1,14 @@
+.container {
+    width: var(--default-layout-header-width);
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: var(--default-layout-header-heigh, 60px);
+    display: flex;
+    padding: 0 var(--default-layout-horizontal-spacer);
+}
+
+.content {
+    flex: 1;
+    // background-color: #cccc;
+    // min-height: 1000px;
+}
